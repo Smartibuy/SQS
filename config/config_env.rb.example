@@ -1,0 +1,4 @@
+aws_key_setting = {'AWS_ACCESS_KEY_ID' => 'key1',
+                   'AWS_SECRET_ACCESS_KEY' => 'key2',
+                   'AWS_REGION' => 'key3',
+                   'QUEUE_URL' => 'url'}
