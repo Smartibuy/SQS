@@ -31,17 +31,3 @@ group_name.each do |msg|
     }
   })
 end
-# save tickets to the queue for processing later
-# group_name.each do |tkt|
-#   message_details = {
-#     queue_url: AWS_KEY_SETTING['QUEUE_URL'],
-#     message_body: group_name,
-#     message_attributes: {
-#       "String" => {
-#         string_value: "String",
-#         data_type: "String",
-#       },
-#     }
-#   }
-#   sqs.send_message(message_details)
-# end
